@@ -1,0 +1,29 @@
+.fnk {
+  background: rgb(42, 125, 144);
+  text-align: center;
+  border-bottom: 10px double white;
+  border-top: 2px solid white;
+}
+
+#fsk {
+  font-size: 60px;
+  margin: 0 0 0 15px;
+  padding: 0 0 0 0;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#menu {
+  display: none;
+  float: right;
+  font-size: 2em;
+  text-decoration: none;
+}
+
+.menu-icon {
+	color: white;
+	font-size: 30px;
+	float: right;
+	margin-right: 20px;
+	margin-top: -65px;
+}
