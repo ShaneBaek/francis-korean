@@ -3,8 +3,11 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Church of Francis of Assisi Korean</title>
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/slide.css">
    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
 
 </head>
@@ -12,25 +15,105 @@
 <body>
   <div class="fnk">
     <h1 id="fsk">Francis Korean</h1>
+     <!-- menubar begin -->
+     <div class="menubar">
+        <!-- <a class="menu-icon">&#9776;</a> -->
+         <div id="menu" class="clearfix">
+             <a class="about" href="" title="about">About</a>
+             <a class="mass-time" href="" title="mass">Mass</a>
+             <a class="share" href="" title="sharing">Sharing</a>
+             <a class="fellowship" href="" title="fellow">Fellowship</a>
+             <a class="News" href="" title="news">News</a>
+         </div>
+      </div>
+      <!-- menubar ends -->
   </div>
 
- <div class="menubar">
-    <a class="menu-icon">&#9776;</a>
-     <div id="menu" class="clearfix">
-         <a class="about" href="" title="about">About</a>
-         <a class="mass-time" href="" title="mass">Mass</a>
-         <a class="share" href="" title="sharing">Sharing</a>
-         <a class="fellowship" href="" title="fellow">Fellow</a>
-         <a class="News" href="" title="news">News</a>
-     </div>
+<!-- main-slide begin -->
+<div class="gallery">
+  <div id="frame">
+    <div id="slide_tray">
+        
+        <div class="slide">
+          <a href="#"><img src="http://i1.trekearth.com/photos/100642/nyc013a.jpg" alt="love"></a>
+        </div>
+
+        <div class="slide">
+          <a href="#"><img src="https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/10940584_10153073025915320_5987773641577263821_n.jpg?oh=4bbbb173f4948d8f63c271722d1143a1&oe=5594971B&__gda__=1435691789_72e670aa54de521a9bebc8f06a45460f" alt="love"></a>
+        </div>
+
+        <div class="slide">
+          <a href="#"><img src="https://scontent-lga.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/10409050_10100423275858586_8884058200502136605_n.jpg?oh=070e57727cd4542808071b6fe5133d71&oe=554D6A76" alt="love"></a>
+        </div>
+
+    </div>
+        <a href="#" id="prev"><i class="fa fa-angle-left fa-4x"></i></a>
+        <a href="#" id="next"><i class="fa fa-angle-right fa-4x"></i></a> 
   </div>
+</div>
+<!-- main-slide ends -->
 
+<!-- on the same line -->
+<div class="contents">
+    <div id="news">
+      <p>News</p>
+    </div>
 
+    <div id="mass">
+      <p>Mass Schedule</p>
+    </div>
+
+    <div id="staff">
+      <p>Staff Contacts</p>
+    </div>
+    <!-- on the same line ends -->
+
+    <div id="about">
+      <p>About Francis Korean</p>
+    </div>
+
+    <div id="location">
+      <p>Location</p> <!-- with google map -->
+    </div>
+</div>
   
 
 <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="js/menu.js"></script>
+<script src="js/slide.js"></script>
 </body>
 
-<footer></footer>
+
+<!-- stack each vertically -->
+<footer>
+<div class="f">  
+   <div id="us">
+     <p>About Us</p>
+   </div>
+
+   <div id="worship">
+     <p>Worship</p>
+   </div>
+     
+   <div id="ministries">
+     <p>Ministries</p>
+   </div>
+
+   <div id="outreach">
+     <p>Outreach</p>
+   </div>
+</div>
+</footer>
+<!-- stack each vertically ends -->
 </html>
+
+
+
+
+
+
+
+
+
+
+

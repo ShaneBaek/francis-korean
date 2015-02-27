@@ -1,17 +1,17 @@
-$(function() {
+// $(function() {
 
-////Mobile Menu////
+// ////Mobile Menu////
 
-   $('a.menu-icon').click(function() {
-      $('#menu').slideToggle();
-   });
+//    $('a.menu-icon').click(function() {
+//       $('#menu').slideToggle();
+//    });
 
-////Fix hidden links on window resize////
+// ////Fix hidden links on window resize////
    
-   $(window).resize(function() {
-      if ($(window).width() > 950) {
-      	$('#menu').removeAttr('style');
-      }
-   });
+//    $(window).resize(function() {
+//       if ($(window).width() > 950) {
+//       	$('#menu').removeAttr('style');
+//       }
+//    });
 
-});
+// });

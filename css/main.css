@@ -1,29 +1,184 @@
 .fnk {
-  background: rgb(42, 125, 144);
-  text-align: center;
-  border-bottom: 10px double white;
-  border-top: 2px solid white;
+  background: white;
+  text-align: left;
 }
 
 #fsk {
-  font-size: 60px;
+  font-size: 3em;
   margin: 0 0 0 15px;
   padding: 0 0 0 0;
-  color: white;
+  color: rgb(42, 125, 144);
   font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+}
+
+.menubar {
+  display: inline-block;
+  float: right;
+  padding-top: 19px;
+}
+
+a {
+  text-decoration: none; 
 }
 
 #menu {
-  display: none;
-  float: right;
-  font-size: 2em;
-  text-decoration: none;
+  padding-right: 20px;
+  font-size: 1.7em;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.menu-icon {
+.about, .mass-time, .share, .fellowship, .News {
+	color: rgb(42, 125, 144);
+	padding-right: 10px;
+}
+
+/*.menu-icon {
 	color: white;
 	font-size: 30px;
 	float: right;
 	margin-right: 20px;
 	margin-top: -65px;
+}*/
+
+#news {
+	display: inline-block;
+	border: 2px solid rgb(42, 125, 144);
+	width: 32.3%;
+	height: 500px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 0.5%;
+	color: rgb(42, 125, 144);
 }
+
+
+#mass {
+	display: inline-block;
+	border: 2px solid rgb(42, 125, 144);
+	width: 32.3%;
+	height: 500px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 0.5%;
+	color: rgb(42, 125, 144);
+}
+
+#staff {
+	display: inline-block;
+	border: 2px solid rgb(42, 125, 144);
+	width: 32.3%;
+	height: 500px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 0.5%;
+	color: rgb(42, 125, 144);
+}
+
+#about {
+	display: inline-block;
+	border: 2px solid rgb(42, 125, 144);
+	width: 98.3%;
+	height: 600px;
+	margin-bottom: 15px;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 0.5%;
+	color: rgb(42, 125, 144);
+}
+
+#location {
+    display: inline-block;
+	border: 2px solid rgb(42, 125, 144);
+	width: 98.3%;
+	height: 300px;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 0.5%;
+	color: rgb(42, 125, 144);
+}
+
+.contents {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+}
+
+/*.f {
+	border-top: 2px solid rgb(42, 125, 144);
+	margin-top: 15px;
+	text-align: center;
+}*/
+
+#us {
+	display: inline-block;
+	width: 24.1%;
+	height: 500px;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 0.5%;
+	border: 2px solid rgb(42, 125, 144);
+	margin-top: 15px;
+	color: rgb(42, 125, 144);
+}
+
+#worship {
+	display: inline-block;
+	width: 24.1%;
+	height: 500px;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 0.5%;
+	border: 2px solid rgb(42, 125, 144);
+	margin-top: 15px;
+	color: rgb(42, 125, 144);
+}
+
+#ministries {
+	display: inline-block;
+	width: 24.1%;
+	height: 500px;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 0.5%;
+	border: 2px solid rgb(42, 125, 144);
+	margin-top: 15px;
+	color: rgb(42, 125, 144);
+}
+
+#outreach {
+	display: inline-block;
+	width: 24.1%;
+	height: 500px;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 0.5%;
+	border: 2px solid rgb(42, 125, 144);
+	margin-top: 15px;
+	color: rgb(42, 125, 144);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
