@@ -18,8 +18,35 @@
   padding-top: 19px;
 }
 
+.clear {
+	clear: both;
+}
+
 a {
   text-decoration: none; 
+}
+
+li {
+	display: block;
+}
+
+p, img {
+  display: inline-block;
+}
+
+h3 {
+	text-align: center;
+	font-size: 2em;
+}
+
+h4 {
+	margin: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 #menu {
@@ -28,7 +55,7 @@ a {
   font-family: 'Montserrat', sans-serif;
 }
 
-.about, .mass-time, .share, .fellowship, .News {
+.share, .fellowship, .login {
 	color: rgb(42, 125, 144);
 	padding-right: 10px;
 }
@@ -41,122 +68,161 @@ a {
 	margin-top: -65px;
 }*/
 
-#news {
-	display: inline-block;
-	border: 2px solid rgb(42, 125, 144);
-	width: 32.3%;
-	height: 500px;
-	margin-bottom: 15px;
-	margin-top: 10px;
-	font-family: 'Montserrat', sans-serif;
-	border-radius: 0.5%;
-	color: rgb(42, 125, 144);
+div.wrapper {
+	display: block;
+	clear: both;
+	width: 1000px;
+	margin: 0 auto;
+	background: #fff;
 }
 
-
-#mass {
-	display: inline-block;
-	border: 2px solid rgb(42, 125, 144);
-	width: 32.3%;
-	height: 500px;
-	margin-bottom: 15px;
-	margin-top: 10px;
+.news {
+	display: block;
+	float: left;
+	width: 32%;
+	height: 600px;
 	font-family: 'Montserrat', sans-serif;
 	border-radius: 0.5%;
 	color: rgb(42, 125, 144);
+	text-align: center;
+	margin: 10px 5px 25px 5px;
 }
 
-#staff {
-	display: inline-block;
-	border: 2px solid rgb(42, 125, 144);
-	width: 32.3%;
-	height: 500px;
+.mass {
+	display: block;
+	float: left;
+	width: 32%;
+	height: 600px;
+	font-family: 'Montserrat', sans-serif;
+	border-radius: 0.5%;
+	color: rgb(42, 125, 144);
+	text-align: center;
+	margin: 10px 5px 25px 5px;
+}
+
+.staff {
+	display: block;
+	float: left;
+	width: 32%;
+	height: 600px;
 	margin-bottom: 15px;
 	margin-top: 10px;
 	font-family: 'Montserrat', sans-serif;
 	border-radius: 0.5%;
 	color: rgb(42, 125, 144);
+	text-align: center;
+	margin: 10px 5px 25px 5px;
 }
 
 #about {
 	display: inline-block;
-	border: 2px solid rgb(42, 125, 144);
+	border-bottom: 2px double rgb(42, 125, 144);
+	border-top: 2px double rgb(42, 125, 144);
 	width: 98.3%;
 	height: 600px;
-	margin-bottom: 15px;
+	margin-bottom: 5px;
 	font-family: 'Montserrat', sans-serif;
-	border-radius: 0.5%;
 	color: rgb(42, 125, 144);
+}
+
+.about-church {
+	display: inline-block;
+	width: 45%;
+	height: auto;
+	margin: 0 0 0 30px;
+	position: relative;
+}
+
+.about-church p {
+	margin-top: 0;
+	font-size: 1.5em;
+}
+
+#about img {
+	float: left;
+	margin-left: 20px;
 }
 
 #location {
-    display: inline-block;
-	border: 2px solid rgb(42, 125, 144);
+	border-bottom: 2px solid rgb(42, 125, 144);
 	width: 98.3%;
-	height: 300px;
+	height: 550px;
 	font-family: 'Montserrat', sans-serif;
-	border-radius: 0.5%;
 	color: rgb(42, 125, 144);
+	text-align: center;
+	padding-bottom: 870px;
 }
 
-.contents {
-	text-align: center;
+.address {
+	padding-bottom: 20px;
+	font-size: 1.5em;
 }
+
 
 footer {
 	text-align: center;
 }
 
-/*.f {
-	border-top: 2px solid rgb(42, 125, 144);
-	margin-top: 15px;
-	text-align: center;
-}*/
-
 #us {
-	display: inline-block;
+	display: block;
+	float: left;
 	width: 24.1%;
 	height: 500px;
 	font-family: 'Montserrat', sans-serif;
 	border-radius: 0.5%;
-	border: 2px solid rgb(42, 125, 144);
 	margin-top: 15px;
 	color: rgb(42, 125, 144);
+	text-align: center;
+	text-decoration: none;
 }
 
 #worship {
-	display: inline-block;
+	display: block;
+	float: left;
 	width: 24.1%;
 	height: 500px;
 	font-family: 'Montserrat', sans-serif;
 	border-radius: 0.5%;
-	border: 2px solid rgb(42, 125, 144);
 	margin-top: 15px;
 	color: rgb(42, 125, 144);
+	text-align: center;
 }
 
 #ministries {
-	display: inline-block;
+	display: block;
+	float: left;
 	width: 24.1%;
-	height: 500px;
+	height: 800px;
 	font-family: 'Montserrat', sans-serif;
 	border-radius: 0.5%;
-	border: 2px solid rgb(42, 125, 144);
 	margin-top: 15px;
 	color: rgb(42, 125, 144);
+	text-align: left;
+}
+
+#ministries h4 {
+	text-align: center;
 }
 
 #outreach {
-	display: inline-block;
+	display: block;
+	float: left;
 	width: 24.1%;
-	height: 500px;
+	height: 300px;
 	font-family: 'Montserrat', sans-serif;
 	border-radius: 0.5%;
-	border: 2px solid rgb(42, 125, 144);
 	margin-top: 15px;
 	color: rgb(42, 125, 144);
+	text-align: center;
 }
 
+#outreach h4 {
+    margin-bottom: 32px;
+}
+
+.f {
+	clear: both;
+}
 
 
 
